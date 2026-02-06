@@ -29,6 +29,7 @@ fi
 
 unzip -o publish.zip
 rm -f publish.zip
+chmod 755 $DEST/torrserver/TorrServer-linux
 
 # Create service
 echo ""
